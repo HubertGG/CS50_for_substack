@@ -34,21 +34,21 @@ int scoring(string word)
         }
         for(int j = 0, m = strlen(letters[1]); j < m; j++)
         {
-            if(word[i] == letters[0][j])
+            if(word[i] == letters[1][j])
             {
                 score += 2;
             }
         }
         for(int j = 0, m = strlen(letters[2]); j < m; j++)
         {
-            if(word[i] == letters[0][j])
+            if(word[i] == letters[2][j])
             {
                 score += 3;
             }
         }
         for(int j = 0, m = strlen(letters[3]); j < m; j++)
         {
-            if(word[i] == letters[0][j])
+            if(word[i] == letters[3][j])
             {
                 score += 4;
             }
