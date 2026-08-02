@@ -86,9 +86,9 @@ int scoring(string word)
                 score += 8;
             }
         }
-        for(int j = 0, m = strlen(letters[3]); j < m; j++)
+        for(int j = 0, m = strlen(letters[6]); j < m; j++)
         {
-            if(word[i] == letters[3][j])
+            if(word[i] == letters[6][j])
             {
                 score += 10;
             }
